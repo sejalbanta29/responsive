@@ -1,0 +1,32 @@
+/* .banner{
+    height: 65vh;
+} */
+.banner .navbar {
+    padding: 1.2rem 3rem;
+}
+.banner .navbar .leftside{
+    margin-top: 9px;
+}
+.banner .navbar .rightside{
+    display: none;
+}
+.banner .navbar .openbtn{
+    display: inline-flex;
+}
+.banner hr{
+    margin: 0 3rem;
+}
+/* .banner .main-section {
+    margin: 7% 0;
+} */
+.section-container{
+    display: block;
+}
+.section-container img{
+    width: 14vw;
+    height: 11vh;
+}
+.section-container .one, .section-container .two {
+    padding: 2rem;
+}
+

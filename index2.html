@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" media="screen and (min-width:501px) and (max-width:768px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:500px)" href="mobile.css">
+    <style>
+        @media screen and (min-width:769px) and (max-width:1024px) {
+            .section .section-container img {
+                width: 16vw;
+                height: 12vh;
+                border-radius: 8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <header>
+            <div class="navbar">
+                <div class="leftside">
+                    <p class="font">Responsive Layout</p>
+                </div>
+                <div class="rightside">
+                    <ul>
+                        <li class="font">Home</li>
+                        <li class="font">Generic</li>
+                        <li class="font">Elements</li>
+                    </ul>
+                </div>
+                <div class="openbtn">
+                    <span style="font-size:1.5rem;cursor:pointer" onclick="openNav()">&#9776;</span>
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a class="data" href="#">Home</a>
+                    <a class="data" href="#">Generic</a>
+                    <a class="data" href="#">Elements</a>
+                </div>
+        </header>
+        <hr>
+
+        <head>
+            <div class="main-section">
+                <h1>Welcome</h1>
+                <div class="options">
+                    <div class="car-option">
+                        <i class="fas fa-car"></i><br>
+                        <p>Travel</p>
+                        <p class="info">Choose a ride</p>
+                    </div>
+                    <div class="gallery-option">
+                        <i class="fas fa-camera"></i>
+                        <p>Gallery</p>
+                        <p class="info">Choose photos</p>
+                    </div>
+                </div>
+                <button class="btn">GET STARTED</button>
+            </div>
+        </head>
+    </div>
+    <div class="section">
+        <div class="section-container">
+            <div class="one">
+                <img src="iphone.jpeg" alt="image1"><br>
+                <h5>Lorem ipsum <br>dolor sit amet hddehtt</h5><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus ratione ea adipisci consectetur
+                    adipisicing elit. </p>
+                <button class="btn">LEARN MORE</button>
+            </div>
+            <div class="two">
+                <img src="camera.jpeg" alt="image2"><br>
+                <h5>Sed feugiat <br>tempus adipicsing</h5><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus voluptatibus iusto minus, nulla
+                    accusamus .</p>
+                <button class="btn">LEARN MORE</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "25vw";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+</html>

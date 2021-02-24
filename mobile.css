@@ -1,0 +1,76 @@
+
+.banner .navbar {
+    padding: 0.5rem 1rem;
+}
+.banner .navbar .leftside{
+    margin-top: 9px;
+}
+.banner .navbar .rightside{
+    display: none;
+}
+.banner .navbar .openbtn{
+    display: inline-flex;
+}
+.navbar .sidenav .closebtn{
+    font-size: 1rem;
+}
+.navbar .sidenav .data{
+    padding: 0.5rem 0;
+}
+.banner hr{
+    margin: 0 1rem;
+}
+.main-section {
+    padding: 2rem 0;
+}
+.main-section h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.main-section .options{
+    display: block;
+}
+.main-section .car-option {
+    border-right: none;
+}
+.main-section .fas {
+    margin: 23px;
+    margin-bottom: 4px;
+    font-size: 1.5rem;
+}
+
+.section-container {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+.section-container img {
+    width: 25vw;
+    height: 13vh;
+}
+.section-container h5{
+    font-size: 1.2rem;
+}
+.section-container p{
+    margin: 1rem 0;
+}
+.section button{
+    margin: 0;
+}
+
+
+@media screen and (max-width:414px){
+    *{font-size: 15px;}
+}
+/* @media screen and (max-width:411px){
+    *{font-size: 14px;}
+}
+@media screen and (max-width:375px){
+    *{font-size: 13px;}
+}
+@media screen and (max-width:360px){
+    *{font-size: 12px;}
+} */
+@media screen and (max-width:320px){
+    *{font-size: 10px;}
+}
